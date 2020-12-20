@@ -1,0 +1,39 @@
+2020-12-18 22:27:01,325 WARN  [SoapUI] Missing folder [C:\Users\IshwarDharmadhikari\Desktop\Automation Soap Class\Rest Mavan project for assigement\my-app\ext] for external libraries
+2020-12-18 22:27:01,505 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\IshwarDharmadhikari\soapui-settings.xml]
+2020-12-18 22:27:01,523 INFO  [HttpClientSupport$Helper] Initializing KeyStore
+2020-12-18 22:27:03,439 INFO  [WsdlProject] Loaded project from [file:/C:/Users/IshwarDharmadhikari/Desktop/Automation%20Soap%20Class/Rest%20Mavan%20project%20for%20assigement/my-app/Rest-Project-for-Assigment-soapui-project.xml]
+2020-12-18 22:27:03,889 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2020-12-18 22:27:03,890 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2020-12-18 22:27:03,897 ERROR [TestAssertionRegistry] Missing assertion for type [JsonPath Match]
+2020-12-18 22:27:03,958 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Rest Project for Assigment]
+2020-12-18 22:27:03,960 INFO  [SoapUITestCaseRunner] Running Project [Rest Project for Assigment], runType = SEQUENTIAL
+2020-12-18 22:27:03,977 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC001]
+2020-12-18 22:27:04,001 INFO  [SoapUITestCaseRunner] running step [Client_credentials]
+2020-12-18 22:27:05,897 INFO  [log] {"success":1,"error":[],"data":{"access_token":"537ce6ae4676930f063a173da82c4a7d63331dba","expires_in":86400,"token_type":"Bearer"}}
+2020-12-18 22:27:05,922 INFO  [log] 537ce6ae4676930f063a173da82c4a7d63331dba
+2020-12-18 22:27:05,938 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-18 22:27:05,939 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC001], time taken: 1311ms, status: FINISHED
+2020-12-18 22:27:05,943 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC002]
+2020-12-18 22:27:05,943 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-12-18 22:27:06,394 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-18 22:27:06,394 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-18 22:27:06,395 INFO  [SoapUITestCaseRunner] running step [GetUser]
+2020-12-18 22:27:06,849 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-18 22:27:06,849 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-18 22:27:06,857 INFO  [SoapUITestCaseRunner] running step [LogOut]
+2020-12-18 22:27:07,307 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-18 22:27:07,308 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC002], time taken: 1193ms, status: FINISHED
+2020-12-18 22:27:07,315 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC015]
+2020-12-18 22:27:07,317 INFO  [SoapUITestCaseRunner] running step [Client_credentials]
+2020-12-18 22:27:07,780 INFO  [log] {"success":1,"error":[],"data":{"access_token":"5fa9d86d3dce479291d6abb035a29609c20bd479","expires_in":86400,"token_type":"Bearer"}}
+2020-12-18 22:27:07,786 INFO  [log] 5fa9d86d3dce479291d6abb035a29609c20bd479
+2020-12-18 22:27:07,790 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-18 22:27:07,790 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-12-18 22:27:08,278 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-18 22:27:08,278 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-18 22:27:08,285 INFO  [SoapUITestCaseRunner] running step [GetProCatList]
+2020-12-18 22:27:08,724 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-18 22:27:08,724 INFO  [SoapUITestCaseRunner] running step [LogOut]
+2020-12-18 22:27:09,112 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-18 22:27:09,113 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC015], time taken: 1638ms, status: FINISHED
+2020-12-18 22:27:09,117 INFO  [SoapUITestCaseRunner] Project [Rest Project for Assigment] finished with status [FINISHED] in 5152ms
